@@ -11,6 +11,7 @@ This document walks through both versions, the hardware used in each, and — im
 - [Project Evolution](#project-evolution)
 - [TP2 — PIN Access Control (I2C LCD)](#tp2--pin-access-control-i2c-lcd)
   - [Circuit Diagram](#tp2-circuit-diagram)
+  - [Live Demo](#tp2-live-demo)
   - [Bill of Materials](#tp2-bill-of-materials)
   - [Pinout / Wiring Table](#tp2-pinout--wiring-table)
   - [Required Libraries](#tp2-required-libraries)
@@ -52,6 +53,12 @@ The first version implements a straightforward access-control loop: enter a 4-di
 
 <p align="center">
   <img src="images/TP2.png" alt="TP2 circuit diagram — I2C LCD" width="800">
+</p>
+
+### TP2 Live Demo
+
+<p align="center">
+  <img src="images/TP2_Example.gif" alt="TP2 demo — PIN entry, access granted, and lockout behavior" width="700">
 </p>
 
 ### TP2 Bill of Materials
